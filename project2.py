@@ -2,7 +2,7 @@ requests = []
 
 def applyLeave():
     name = input("Enter your name: ").lower()
-    leavedays = input("Enter amount of leave days: ").lower()
+    leavedays = input("enter amount of leave days: ").lower()
     requests.append([name, leavedays])
 
 def viewall():
