@@ -2,7 +2,7 @@
 tasks= []
 
 def addtask():
-    taskname = input("Enter task name: ")
+    taskname = input("Enter Task name: ")
     taskpriority =input("Enter task priority(High/Medium/Low): ").lower()
     if taskpriority == "high":
         currtask= [taskname,taskpriority]

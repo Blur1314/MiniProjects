@@ -4,7 +4,7 @@ while True:
     names = name.split()
     for i in names:
         if i.isnumeric():
-            print("Wrong input! ")
+            print("Wrong Input! ")
             break
         elif i.isalpha():
             continue

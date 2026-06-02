@@ -4,7 +4,7 @@ def initiatiation():
     empntask = {}
     prj ={}
     pname = input("Enter project name: ")
-    no= int(input("Enter number of mployees: "))
+    no= int(input("Enter number of employees: "))
     for i in range(no):
         ename = input("Enter employee name: ")
         task = input("Enter task: ")

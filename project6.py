@@ -2,7 +2,7 @@ items = {}
 counter = 0
 def additems():
     global counter
-    iname = input("Enter item name: ")
+    iname = input("Enter Item name: ")
     iquan = int(input("Enter item quantity: "))
     iprice = int(input("Enter item price: "))
     counter += 1

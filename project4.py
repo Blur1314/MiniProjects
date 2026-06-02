@@ -2,7 +2,7 @@
 counter = 0
 def userini():
     global counter
-    name = input("Enter your name: ")
+    name = input("Enter your Name: ")
     attend = input("Enter attendance(P/A): ").lower()
     if attend == "p":
         counter += 1

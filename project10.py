@@ -8,7 +8,7 @@ def enter():
         ttask = int(input("Enter total tasks: "))
         ctask = int(input("Enter completed tasks: "))
     except:
-        print("Invalid input")
+        print("Invalid Input")
         return
 
     percentage = (ctask / ttask) * 100

@@ -12,7 +12,7 @@ def takeinput():
     employee.append(lst)
     return lst
 def getemp():
-    name = input("Enter employee name: ")
+    name = input("Enter Employee name: ")
     for i in employee:
         if i[0] == name:
             return i

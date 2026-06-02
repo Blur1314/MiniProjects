@@ -2,7 +2,7 @@ meetings=[]
 
 
 def addmeeting():
-    mname = input("Enter meeting name: ")
+    mname = input("Enter Meeting name: ")
     mdate = input("Enter date of meeting: ")
     mtime = input("Enter time of meeting: ")
     curlst= [mname, mdate, mtime]
