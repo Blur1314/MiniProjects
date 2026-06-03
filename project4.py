@@ -10,7 +10,7 @@ def userini():
     elif attend == "a":
         print("Marked absent")
     else:
-        print("Please enter a valid input")
+        print("Please Enter a valid input")
 
 
 while True:
