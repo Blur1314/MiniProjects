@@ -6,7 +6,7 @@ def userini():
     attend = input("Enter attendance(P/A): ").lower()
     if attend == "p":
         counter += 1
-        print("Marked present")
+        print("Marked Present")
     elif attend == "a":
         print("Marked absent")
     else:
